@@ -1,0 +1,58 @@
+/* Estilos generales del cuerpo */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6; /* Mejora la legibilidad */
+  color: #333; /* Color de texto por defecto */
+}
+
+/* Colores de los encabezados */
+h1, h2, h3, h4 {
+  color: #003366;
+  margin-bottom: 0.5em; /* Añade espacio debajo de los encabezados */
+}
+
+/* Estilos de enlaces */
+a {
+  color: #007BFF;
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline; /* Añade subrayado al pasar el ratón */
+}
+
+/* Estilos específicos para grid-container de index2.html, movidos aquí para consistencia */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadido ease para una transición más suave */
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Las animaciones personalizadas anteriores han sido eliminadas para evitar conflictos y duplicación con AOS. */
+
+/* Estilos para el párrafo principal en index2.html */
+.lead {
+    margin-bottom: 1.5rem;
+}
+
+/* Ajustes para el carrusel en index2.html para un mejor espaciado */
+.carousel {
+    margin-bottom: 2rem;
+}
